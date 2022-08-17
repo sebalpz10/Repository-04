@@ -1,0 +1,127 @@
+.img-logo-02 {
+    height: 70px;
+}
+
+@media screen and (max-width: 1100px) {
+    .responsive-login {
+        display: flex;
+    }
+
+    .anule-01 {
+        display: none;
+    }
+
+    .cuadro-login {
+        margin-top: 30px;
+
+        width: 270px;
+    }
+
+    .r-copy {
+        position: absolute;
+        left: 15px;
+        bottom: 12px;
+    }
+
+    .r-redes {
+        position: absolute;
+        right: 25px;
+        bottom: 15px;
+    }
+
+    .r-redes a {
+        text-decoration: none;
+
+        color: #000000;
+    }
+
+    .nav-login {
+        margin-right: 20px;
+    }
+
+    .img-zapatillas {
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .responsive-prendas {
+        display: flex;
+    }
+
+    .anule-02 {
+        display: none;
+    }
+
+    .redes-prendas {
+        text-decoration: none;
+
+        color: #000000;
+
+        margin-top: 8px;
+        margin-right: 15px;
+    }
+
+    .copy-prendas {
+        color: #000000;
+
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+    .img-zapatillas {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .img-card {
+        height: 200px;
+    }
+
+    .div-card h5 {
+        display: none;
+    }
+
+    .nav-anule {
+        display: none;
+    }
+
+    .nav-anule-02 {
+        display: none;
+    }
+
+    .resposive-nav {
+        display: flex;
+    }
+
+    .fa-bars {
+        color: #000000;
+        font-size: 23px;
+    }
+
+    .btn-drop-nav-r {
+        margin-top: 28px;
+        margin-right: 20px;
+
+        border: 0;
+
+        background-color: $color-secundary;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .grid-zapas-r {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .grid-prends {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid-zapas-r {
+        grid-template-columns: 1fr;
+    }
+}

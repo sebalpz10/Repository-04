@@ -1,0 +1,31 @@
+.grid-prendas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 50px;
+
+    justify-items: center;
+
+    margin-top: 50px;
+
+    div {
+        text-align: center;
+
+        .img-card {
+            height: 370px;
+        }
+
+        div {
+            margin-top: 10px;
+
+            a {
+                text-decoration: none;
+
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+.img-zapatillas {
+    height: 350px
+}

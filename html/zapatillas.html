@@ -26,7 +26,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
 
     <!-- CSS Propio -->
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/maincss.css">
 
 </head>
 
@@ -54,88 +54,94 @@
             <!-- Nav -->
             <nav>
 
-                <ul class="ul-nav nav-anule">
+                <div class="nav-anule-02">
 
-                    <li class="li-nav">
-                        <a class="btn-nav" href="#">NOTICIAS</a>
-                    </li>
+                    <ul class="ul-nav">
 
-                    <!-- Dropdown -->
-                    <li class="li-nav dropdown-center">
-                        <a class="btn-nav" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            PRENDAS
-                        </a>
+                        <li class="li-nav">
+                            <a class="btn-nav" href="#">NOTICIAS</a>
+                        </li>
+
+                        <!-- Dropdown -->
+                        <li class="li-nav dropdown-center">
+                            <a class="btn-nav" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                PRENDAS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="zapatillas.html">ZAPATILLAS</a>
+                                </li>
+                                <li>
+                                    <hr>
+                                </li>
+                                <li>
+                                    <a href="#">BUZOS</a>
+                                </li>
+                                <li>
+                                    <a href="#">PANTALONES</a>
+                                </li>
+                                <li>
+                                    <a href="camisas.html">CAMISAS</a>
+                                </li>
+                                <li>
+                                    <a href="#">REMERAS</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Dropdown -->
+
+                        <li class="li-nav">
+                            <a class="btn-nav" href="#">NOSOTROS</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Dropdown resposive -->
+                <div class="responsive-nav">
+                    <div class="dropdown">
+                        <button class="btn-drop-nav-r dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
                         <ul class="dropdown-menu">
-                            <li class="li-drop">
-                                <a class="btn-drop" href="zapatillas.html">ZAPATILLAS</a>
+                            <li class="li-res">
+                                <a href="#">Noticias</a>
+                            </li>
+                            <li class="li-res">
+                                <a href="#">Nosotros</a>
+                            </li>
+                            <li class="li-res">
+                                <a href="#">Soporte</a>
                             </li>
                             <li>
                                 <hr>
                             </li>
-                            <li class="li-drop">
-                                <a class="btn-drop" href="#">BUZOS</a>
+                            <li class="li-res">
+                                <a href="#">Prendas</a>
                             </li>
-                            <li class="li-drop">
-                                <a class="btn-drop" href="#">PANTALONES</a>
+                            <li>
+                                <hr>
                             </li>
-                            <li class="li-drop">
-                                <a class="btn-drop" href="camisas.html">CAMISAS</a>
+                            <li class="li-res">
+                                <a href="zapatillas.html">ZAPATILLAS</a>
                             </li>
-                            <li class="li-drop">
-                                <a class="btn-drop" href="#">REMERAS</a>
+                            <li class="li-res">
+                                <a href="#">BUZOS</a>
                             </li>
+                            <li class="li-res">
+                                <a href="#">PANTALONES</a>
+                            </li>
+                            <li class="li-res">
+                                <a href="camisas.html">CAMISAS</a>
+                            </li>
+                            <li class="li-res">
+                                <a href="#">REMERAS</a>
+                            </li>
+
                         </ul>
-                    </li>
-                    <!-- Dropdown -->
-
-                    <li class="li-nav">
-                        <a class="btn-nav" href="#">NOSOTROS</a>
-                    </li>
-
-                </ul>
-
-                <!-- Dropdown resposive -->
-                <div class="dropdown responsive-nav">
-                    <button class="btn-drop-nav-r dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        <i class="fa-solid fa-bars"></i>
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li class="li-drop">
-                            <a class="btn-drop" href="#">Noticias</a>
-                        </li>
-                        <li class="li-drop">
-                            <a class="btn-drop" href="#">Nosotros</a>
-                        </li>
-                        <li class="li-drop">
-                            <a class="btn-drop" href="#">Soporte</a>
-                        </li>
-                        <li>
-                            <hr>
-                        </li>
-                        <li class="li-drop">
-                            <a class="btn-drop" href="#">Prendas</a>
-                        </li>
-                        <li>
-                            <hr>
-                        </li>
-                        <li class="li-drop">
-                            <a class="btn-drop" href="zapatillas.html">ZAPATILLAS</a>
-                        </li>
-                        <li class="li-drop">
-                            <a class="btn-drop" href="#">BUZOS</a>
-                        </li>
-                        <li class="li-drop">
-                            <a class="btn-drop" href="#">PANTALONES</a>
-                        </li>
-                        <li class="li-drop">
-                            <a class="btn-drop" href="camisas.html">CAMISAS</a>
-                        </li>
-                        <li class="li-drop">
-                            <a class="btn-drop" href="#">REMERAS</a>
-                        </li>
-
-                    </ul>
+                    </div>
                 </div>
                 <!-- Dropdown resposive -->
 
@@ -165,63 +171,63 @@
 
             <div class="grid-prendas grid-zapas-r">
 
-                <div class="card-camisas">
-                    <img class="img-zapa" src="../img/zapatillas/zapa-01.jpg" alt="zapa-01">
-                    <div class="div-card">
-                        <h5 class="">Casaca Oversize Scotish</h5>
-                        <p class="">$999,99</p>
-                        <p class="">12 cuotas sin interes</p>
-                        <a href="#" class="">Añadir al carrito</a>
+                <div>
+                    <img class="img-zapatillas" src="../img/zapatillas/zapa-01.jpg" alt="zapa-01">
+                    <div>
+                        <h5>Casaca Oversize Scotish</h5>
+                        <p>$999,99</p>
+                        <p>12 cuotas sin interes</p>
+                        <a href="#">Añadir al carrito</a>
                     </div>
                 </div>
 
-                <div class="card-camisas">
-                    <img class="img-zapa" src="../img/zapatillas/zapa-02.jpg" alt="zapa-02">
-                    <div class=" div-card">
-                        <h5 class="">Camisa Milan Black</h5>
-                        <p class="">$999,99</p>
-                        <p class="">12 cuotas sin interes</p>
-                        <a href="#" class="">Añadir al carrito</a>
+                <div>
+                    <img class="img-zapatillas" src="../img/zapatillas/zapa-02.jpg" alt="zapa-02">
+                    <div>
+                        <h5>Camisa Milan Black</h5>
+                        <p>$999,99</p>
+                        <p>12 cuotas sin interes</p>
+                        <a href="#">Añadir al carrito</a>
                     </div>
                 </div>
 
-                <div class="card-camisas">
-                    <img class="img-zapa" src="../img/zapatillas/zapa-03.jpg" alt="zapa-03">
-                    <div class="div-card">
-                        <h5 class="">Camisa Beach</h5>
-                        <p class="">$999,99</p>
-                        <p class="">12 cuotas sin interes</p>
-                        <a href="#" class="">Añadir al carrito</a>
+                <div>
+                    <img class="img-zapatillas" src="../img/zapatillas/zapa-03.jpg" alt="zapa-03">
+                    <div>
+                        <h5>Camisa Beach</h5>
+                        <p>$999,99</p>
+                        <p>12 cuotas sin interes</p>
+                        <a href="#">Añadir al carrito</a>
                     </div>
                 </div>
 
-                <div class="card-camisas">
-                    <img class="img-zapa" src="../img/zapatillas/zapa-04.jpg" alt="zapa-04">
-                    <div class="div-card">
-                        <h5 class="">Camisa California</h5>
-                        <p class="">$999,99</p>
-                        <p class="">12 cuotas sin interes</p>
-                        <a href="#" class="">Añadir al carrito</a>
+                <div>
+                    <img class="img-zapatillas" src="../img/zapatillas/zapa-04.jpg" alt="zapa-04">
+                    <div>
+                        <h5>Camisa California</h5>
+                        <p>$999,99</p>
+                        <p>12 cuotas sin interes</p>
+                        <a href="#">Añadir al carrito</a>
                     </div>
                 </div>
 
-                <div class="card-camisas">
-                    <img class="img-zapa" src="../img/zapatillas/zapa-05.jpg" alt="zapa-05">
-                    <div class="div-card">
-                        <h5 class="">Camisa Not A Brand Mustard</h5>
-                        <p class="">$999,99</p>
-                        <p class="">12 cuotas sin interes</p>
-                        <a href="#" class="">Añadir al carrito</a>
+                <div>
+                    <img class="img-zapatillas" src="../img/zapatillas/zapa-05.jpg" alt="zapa-05">
+                    <div>
+                        <h5>Camisa Not A Brand Mustard</h5>
+                        <p>$999,99</p>
+                        <p>12 cuotas sin interes</p>
+                        <a href="#">Añadir al carrito</a>
                     </div>
                 </div>
 
-                <div class="card-camisas">
-                    <img class="img-zapa" src="../img/zapatillas/zapa-06.jpg" alt="zapa-06">
-                    <div class="div-card">
-                        <h5 class="">Camisa Regular Sky Blue</h5>
-                        <p class="">$999,99</p>
-                        <p class="">12 cuotas sin interes</p>
-                        <a href="#" class="">Añadir al carrito</a>
+                <div>
+                    <img class="img-zapatillas" src="../img/zapatillas/zapa-06.jpg" alt="zapa-06">
+                    <div>
+                        <h5>Camisa Regular Sky Blue</h5>
+                        <p>$999,99</p>
+                        <p>12 cuotas sin interes</p>
+                        <a href="#">Añadir al carrito</a>
                     </div>
                 </div>
 
@@ -233,7 +239,7 @@
         <!-- Footer -->
         <footer>
 
-            <div class="div-copy anule-02">
+            <div class="anule-02">
                 <p class="copy">© Todos los derechos reservados</p>
             </div>
 
@@ -244,18 +250,18 @@
             <!-- Menu -->
             <div>
 
-                <ul class="ul-footer anule-02">
-                    <li class="li-footer">
-                        <a class="btn-footer" href="#">Empleo</a>
+                <ul class="anule-02">
+                    <li>
+                        <a href="#">Empleo</a>
                     </li>
-                    <li class="li-footer">
-                        <a class="btn-footer" href="#">Nosotros</a>
+                    <li>
+                        <a href="#">Nosotros</a>
                     </li>
-                    <li class="li-footer">
-                        <a class="btn-footer" href="../html/soporte.html">Soporte</a>
+                    <li>
+                        <a href="../html/soporte.html">Soporte</a>
                     </li>
-                    <li class="li-footer">
-                        <a class="btn-footer" href="#">Gift cards</a>
+                    <li>
+                        <a href="#">Gift cards</a>
                     </li>
                 </ul>
 
@@ -263,21 +269,21 @@
             <!-- Menu -->
 
             <!-- Redes -->
-            <div class="div-redes anule-02">
+            <div class="redes anule-02">
 
-                <div>
+                <div class="anule-02">
                     <a href="https://www.instagram.com/" target="_blank">
-                        <i class="fa-brands fa-instagram redes"></i>
+                        <i class="fa-brands fa-instagram"></i>
                     </a>
                 </div>
-                <div>
+                <div class="anule-02">
                     <a href="https://twitter.com/home?lang=es" target="_blank">
-                        <i class="fa-brands fa-twitter redes"></i>
+                        <i class="fa-brands fa-twitter"></i>
                     </a>
                 </div>
-                <div>
+                <div class="anule-02">
                     <a href="https://www.youtube.com/" target="_blank">
-                        <i class="fa-brands fa-youtube redes"></i>
+                        <i class="fa-brands fa-youtube"></i>
                     </a>
                 </div>
 

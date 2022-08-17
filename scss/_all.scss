@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.div-body {
+    background-color: $color-primary;
+}
+
+.none {
+    display: none;
+}
+
+.responsive-login {
+    display: none;
+}
+
+.responsive-nav {
+    display: none;
+}
+
+.responsive-prendas {
+    display: none;
+}
+
+.nav-responsive {
+    display: none;
+}

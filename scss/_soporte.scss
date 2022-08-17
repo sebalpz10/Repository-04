@@ -1,0 +1,124 @@
+.div-search {
+    position: absolute;
+    left: 50.5%;
+    top: 35%;
+
+    transform: translate(-50%, -50%);
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    input {
+        outline: none;
+
+        height: 60px;
+        width: 0;
+
+        padding-right: 20px;
+        padding-left: 20px;
+
+        color: #000000;
+        font-size: 20px;
+
+        border: $color-secundary solid 1px;
+        border-radius: 50px;
+
+        transition: all .7s ease;
+    }
+
+    input::placeholder {
+        color: #000000;
+    }
+
+    div {
+        position: absolute;
+        right: 0;
+        top: 0;
+
+        width: 80px;
+        height: 80px;
+
+        background-color: $color-secundary;
+
+        line-height: 80px;
+
+        border-radius: 50%;
+
+        text-align: center;
+
+        cursor: pointer;
+
+        transition: .5s;
+
+        i {
+            font-size: 25px;
+            color: #ffffff;
+
+            line-height: 80px;
+
+            transition: all .7s ease;
+        }
+    }
+
+    div:hover {
+        background-color: $color-tertiary;
+    }
+}
+
+.div-search:hover input {
+    width: 350px;
+}
+
+.div-search:hover i {
+    transform: rotate(-360deg);
+}
+
+.grid-soporte {
+    margin-top: 300px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 40px;
+    grid-column-gap: 40px;
+
+    text-align: center;
+
+    width: 60%;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    div {
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        background-color: $color-secundary;
+
+        border: #000000 solid 2px;
+        border-radius: 10px;
+
+        cursor: pointer;
+
+        transition: $transition-05;
+
+        a {
+            text-decoration: none;
+
+            color: #000000;
+            font-size: 20px;
+            font-weight: 600;
+
+            width: 400px;
+        }
+    }
+
+    div:hover {
+        background-color: $color-tertiary;
+    }
+
+    div:hover a {
+        color: $color-primary;
+    }
+}

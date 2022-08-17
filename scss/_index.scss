@@ -1,0 +1,173 @@
+header {
+    background-color: $color-secundary;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    .div-logo {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+
+        img {
+            height: $logo;
+        }
+    }
+
+    i {
+        font-size: 30px;
+    }
+
+    nav {
+        margin-left: 77px;
+    }
+
+    .ul-nav {
+        list-style-type: none;
+
+        display: flex;
+
+        .li-nav {
+            margin-top: 25px;
+            margin-right: 5px;
+            margin-left: 5px;
+
+            .btn-nav {
+                text-decoration: none;
+
+                font-size: 20px;
+
+                color: #000000;
+
+                padding-right: 10px;
+                padding-bottom: 12px;
+                padding-left: 10px;
+
+                transition: $transition-05;
+            }
+
+            .btn-nav:hover {
+                border-bottom: $hover-nav-btn;
+
+                color: $color-primary;
+            }
+
+            ul {
+                background-color: $color-tertiary;
+
+                border-radius: 5px;
+
+                text-align: center;
+
+                li {
+                    padding-top: 10px;
+                    padding-bottom: 5px;
+
+                    a {
+                        text-decoration: none;
+
+                        font-size: 20px;
+
+                        color: #000000;
+
+                        padding: 10px;
+
+                        transition: $transition-05;
+                    }
+
+                    a:hover {
+                        color: $color-primary;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.div-text {
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+    a {
+        text-decoration: none;
+
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 40px;
+
+        color: #000000;
+
+        transition: all .1s ease;
+    }
+
+    a:hover {
+        color: #000000;
+
+        animation: cambiar 1s;
+    }
+
+    @keyframes cambiar {
+        0% {
+            color: #000000;
+        }
+
+        20% {
+            color: $color-secundary;
+        }
+
+        100% {
+            color: #000000;
+        }
+    }
+}
+
+.img-new {
+    height: 450px;
+}
+
+.img-grid {
+    height: 300px;
+
+    margin-top: 5px;
+    margin-bottom: 100px;
+
+    transition: $transition-05;
+}
+
+.img-grid:hover {
+    transform: scale(1.04);
+}
+
+.banner {
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    justify-content: center;
+
+    div {
+        margin-top: 70px;
+
+        height: 250px;
+        width: 250px;
+
+        overflow: hidden;
+
+        img {
+            height: 250px;
+
+            transition: $transition-05;
+        }
+
+        img:hover {
+            transform: scale(1.07);
+        }
+    }
+}

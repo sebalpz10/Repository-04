@@ -1,0 +1,20 @@
+.li-res {
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+    a {
+        text-decoration: none;
+
+        font-size: 20px;
+
+        color: #000000;
+
+        padding: 10px;
+
+        transition: $transition-05;
+    }
+
+    a:hover {
+        color: $color-primary;
+    }
+}
