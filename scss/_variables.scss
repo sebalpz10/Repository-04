@@ -3,4 +3,20 @@ $color-secundary: #717575;
 $color-tertiary: #5b5b5b;
 $transition-05: all .5s ease;
 $logo: 60px;
-$hover-nav-btn: solid #b3b3b3 5px
+$hover-nav-btn: solid #b3b3b3 5px;
+
+//Mapa
+$redes: (
+    instagram: #ca16d7,
+    twitter: #168ad7,
+    youtube: #ff2222,
+);
+
+//Mixin
+
+@mixin equis {
+    font-size: 20px;
+    color: #000000;
+    padding-right: 15px;
+    padding-left: 15px;
+}

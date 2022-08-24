@@ -29,12 +29,9 @@ footer {
             a {
                 text-decoration: none;
 
-                font-size: 20px;
-
-                color: #000000;
-
-                padding-right: 15px;
-                padding-left: 15px;
+                //Mixin
+                @include equis;
+                //Mixin
 
                 transition: $transition-05;
             }
@@ -54,8 +51,6 @@ footer {
         i {
             font-size: 25px;
 
-            color: #000000;
-
             padding-right: 10px;
             padding-left: 10px;
 
@@ -74,4 +69,13 @@ footer {
 
     width: 100%;
     height: 50px;
+}
+
+//Mapa redes
+
+@each $var,
+$logos in $redes {
+    .logo-#{$var} {
+        color: $logos;
+    }
 }

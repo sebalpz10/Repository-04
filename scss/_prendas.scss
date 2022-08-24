@@ -17,15 +17,32 @@
         div {
             margin-top: 10px;
 
-            a {
-                text-decoration: none;
+            // a {
+            //     text-decoration: none;
 
-                color: #ffffff;
-            }
+            //     color: #ffffff;
+            // }
         }
     }
 }
 
 .img-zapatillas {
     height: 350px
+}
+
+.carrito {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.boton-01-carrito {
+    @extend .carrito;
+
+    color: #ffffff;
+}
+
+.boton-02-carrito {
+    @extend .carrito;
+
+    color: #000000;
 }

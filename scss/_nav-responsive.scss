@@ -3,6 +3,8 @@
     padding-bottom: 5px;
 
     a {
+        text-align: center;
+
         text-decoration: none;
 
         font-size: 20px;
@@ -17,4 +19,10 @@
     a:hover {
         color: $color-primary;
     }
+}
+
+.dropdown-menu {
+    background-color: $color-tertiary;
+
+    text-align: center;
 }
