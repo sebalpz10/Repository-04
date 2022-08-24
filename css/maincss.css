@@ -68,7 +68,6 @@ footer {
     margin-right: 15px; }
     footer .redes i {
       font-size: 25px;
-      color: #000000;
       padding-right: 10px;
       padding-left: 10px;
       transition: all 0.5s ease; }
@@ -80,6 +79,15 @@ footer {
   bottom: 0px;
   width: 100%;
   height: 50px; }
+
+.logo-instagram {
+  color: #ca16d7; }
+
+.logo-twitter {
+  color: #168ad7; }
+
+.logo-youtube {
+  color: #ff2222; }
 
 header {
   background-color: #717575;
@@ -361,12 +369,19 @@ header {
       height: 370px; }
     .grid-prendas div div {
       margin-top: 10px; }
-      .grid-prendas div div a {
-        text-decoration: none;
-        color: #ffffff; }
 
 .img-zapatillas {
   height: 350px; }
+
+.carrito, .boton-01-carrito, .boton-02-carrito {
+  text-decoration: none;
+  font-size: 15px; }
+
+.boton-01-carrito {
+  color: #ffffff; }
+
+.boton-02-carrito {
+  color: #000000; }
 
 .img-logo-02 {
   height: 70px; }
@@ -421,7 +436,7 @@ header {
     display: none; }
   .nav-anule-02 {
     display: none; }
-  .resposive-nav {
+  .responsive-nav {
     display: flex; }
   .fa-bars {
     color: #000000;
@@ -446,6 +461,7 @@ header {
   padding-top: 10px;
   padding-bottom: 5px; }
   .li-res a {
+    text-align: center;
     text-decoration: none;
     font-size: 20px;
     color: #000000;
@@ -453,3 +469,7 @@ header {
     transition: all 0.5s ease; }
   .li-res a:hover {
     color: #b3b3b3; }
+
+.dropdown-menu {
+  background-color: #5b5b5b;
+  text-align: center; }
