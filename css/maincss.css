@@ -1,3 +1,4 @@
+/* ----------Bootstrap---------- */
 .carousel-inner {
   position: relative;
   width: 100%;
@@ -13,6 +14,8 @@
 .col {
   text-align: center; }
 
+/* ----------Bootstrap---------- */
+/* ----------ALL---------- */
 * {
   margin: 0;
   padding: 0;
@@ -43,6 +46,8 @@
 .search-responsive {
   display: none; }
 
+/* ----------ALL---------- */
+/* ----------Footer---------- */
 footer {
   background-color: #717575;
   display: flex;
@@ -95,6 +100,8 @@ footer {
 .logo-youtube {
   color: #ff2222; }
 
+/* ----------Footer---------- */
+/* ----------Index---------- */
 header {
   background-color: #717575;
   display: flex;
@@ -196,6 +203,8 @@ header {
     .grid div img:hover {
       transform: scale(1.07); }
 
+/* ----------Index---------- */
+/* ----------Login---------- */
 .nav-login {
   margin-top: 30px;
   margin-right: 80px; }
@@ -286,6 +295,8 @@ header {
 .body-login {
   height: 100vh; }
 
+/* ----------Login---------- */
+/* ----------Soporte---------- */
 .div-search {
   position: absolute;
   left: 50.5%;
@@ -365,6 +376,8 @@ header {
   .grid-soporte div:hover a {
     color: #b3b3b3; }
 
+/* ----------Soporte---------- */
+/* ----------Prendas---------- */
 .grid-prendas {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -391,6 +404,8 @@ header {
 .boton-02-carrito {
   color: #000000; }
 
+/* ----------Prendas---------- */
+/* ----------Media---------- */
 .img-logo-02 {
   height: 70px; }
 
@@ -505,6 +520,8 @@ header {
   .grid-zapas-r {
     grid-template-columns: 1fr; } }
 
+/* ----------Media---------- */
+/* ----------Nav-responsive---------- */
 .li-res {
   padding-top: 10px;
   padding-bottom: 5px; }
@@ -521,3 +538,5 @@ header {
 .dropdown-menu {
   background-color: #5b5b5b;
   text-align: center; }
+
+/* ----------Nav-responsive---------- */
