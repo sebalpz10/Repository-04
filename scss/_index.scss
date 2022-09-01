@@ -126,7 +126,7 @@ header {
 }
 
 .img-new {
-    height: 450px;
+    max-height: 450px;
 }
 
 .img-grid {
@@ -150,7 +150,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
-    justify-content: center;
+    justify-items: center;
 
     div {
         margin-top: 70px;
