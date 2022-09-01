@@ -37,6 +37,12 @@
 .nav-responsive {
   display: none; }
 
+.new-responsive {
+  display: none; }
+
+.search-responsive {
+  display: none; }
+
 footer {
   background-color: #717575;
   display: flex;
@@ -161,7 +167,7 @@ header {
     color: #000000; } }
 
 .img-new {
-  height: 450px; }
+  max-height: 450px; }
 
 .img-grid {
   height: 300px;
@@ -178,7 +184,7 @@ header {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  justify-content: center; }
+  justify-items: center; }
   .grid div {
     margin-top: 70px;
     height: 250px;
@@ -329,7 +335,7 @@ header {
   transform: rotate(-360deg); }
 
 .grid-soporte {
-  margin-top: 300px;
+  margin-top: 250px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-row-gap: 40px;
@@ -337,7 +343,9 @@ header {
   text-align: center;
   width: 60%;
   margin-right: auto;
-  margin-left: auto; }
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-bottom: 130px; }
   .grid-soporte div {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -386,7 +394,28 @@ header {
 .img-logo-02 {
   height: 70px; }
 
+@media screen and (max-width: 1300px) {
+  .zapatilla-off {
+    display: none; }
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center; } }
+
+@media screen and (max-width: 1200px) {
+  .carousel-edit {
+    display: none; }
+  .new-responsive {
+    display: flex; }
+  .img-responsive-new {
+    height: 300px;
+    margin-top: 5px;
+    margin-bottom: 100px; } }
+
 @media screen and (max-width: 1100px) {
+  .grid-soporte {
+    width: 75%; }
+  .grid {
+    display: none; }
   .responsive-login {
     display: flex; }
   .anule-01 {
@@ -428,6 +457,10 @@ header {
     height: 200px; } }
 
 @media screen and (max-width: 750px) {
+  .grid-soporte {
+    grid-template-columns: 1fr 1fr; }
+  .banner {
+    display: none; }
   .img-card {
     height: 200px; }
   .div-card h5 {
@@ -452,7 +485,22 @@ header {
     grid-template-columns: 1fr 1fr; } }
 
 @media screen and (max-width: 500px) {
-  .grid-prends {
+  .div-search {
+    display: none; }
+  .search-responsive {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px; }
+    .search-responsive input {
+      height: 30px;
+      width: 60%;
+      align-items: center;
+      border-radius: 5px;
+      border: #000000 solid 1px; }
+  .grid-soporte {
+    margin-top: 100px; }
+  .grid-prendas {
     grid-template-columns: 1fr 1fr; }
   .grid-zapas-r {
     grid-template-columns: 1fr; } }
